@@ -1,0 +1,80 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "eee9c33e-b36c-47d0-81a9-36a3f7cf1be4": {
+      "type": "newsletter",
+      "blocks": {
+        "sections--15925181972635__eee9c33e-b36c-47d0-81a9-36a3f7cf1be4-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Receba nossa newsletter",
+            "heading_size": "h2"
+          }
+        },
+        "sections--15925181972635__eee9c33e-b36c-47d0-81a9-36a3f7cf1be4-paragraph-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Se inscreva para receber novidades em primeira mão!<\/p>"
+          }
+        },
+        "sections--15925181972635__eee9c33e-b36c-47d0-81a9-36a3f7cf1be4-email_form-1": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "sections--15925181972635__eee9c33e-b36c-47d0-81a9-36a3f7cf1be4-heading-1",
+        "sections--15925181972635__eee9c33e-b36c-47d0-81a9-36a3f7cf1be4-paragraph-1",
+        "sections--15925181972635__eee9c33e-b36c-47d0-81a9-36a3f7cf1be4-email_form-1"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "488875a0-550c-4719-a9d8-9ea72a23b04b": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Institucional",
+            "menu": "footer"
+          }
+        },
+        "506ee4c9-b610-4969-bf7d-080f57f7174c": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Políticas",
+            "menu": "pol-ticas"
+          }
+        }
+      },
+      "block_order": [
+        "488875a0-550c-4719-a9d8-9ea72a23b04b",
+        "506ee4c9-b610-4969-bf7d-080f57f7174c"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "newsletter_enable": false,
+        "newsletter_heading": "Se inscreva para receber novidades",
+        "enable_follow_on_shop": false,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 48,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "eee9c33e-b36c-47d0-81a9-36a3f7cf1be4",
+    "footer"
+  ]
+}

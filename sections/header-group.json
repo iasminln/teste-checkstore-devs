@@ -1,0 +1,60 @@
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "Ganhe 10% de desconto na primeira compra",
+            "link": ""
+          }
+        },
+        "39f6f758-7fe3-4585-abeb-2d4a53cbbd59": {
+          "type": "announcement",
+          "settings": {
+            "text": "Frete grátis para sul e sudeste - Valores especiais para as demais regiões",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-0",
+        "39f6f758-7fe3-4585-abeb-2d4a53cbbd59"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo_position": "middle-left",
+        "menu": "main-menu",
+        "menu_type_desktop": "mega",
+        "sticky_header_type": "always",
+        "show_line_separator": true,
+        "color_scheme": "accent-2",
+        "menu_color_scheme": "background-1",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

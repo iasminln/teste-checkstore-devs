@@ -1,0 +1,152 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "9ecebbce-bb4f-4b89-88de-cc65b554ea5c": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "easyflow_product_options_app_embed_yQKRfc": {
+          "type": "shopify:\/\/apps\/easyflow-product-options\/blocks\/app-embed\/83d04f43-e63e-4a8d-82b9-e4f0b41ef22f",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "6512423c-c1d1-4cf3-b3aa-9e00b08076ce": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "932421c6-6a3a-4eb8-8b8f-5514038a01fb": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Material",
+            "icon": "check_mark",
+            "content": "{{ product.metafields.custom.meterials | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "d649b7e6-5f2f-40c1-8fa9-e46c190cfdde": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Dimensões",
+            "icon": "check_mark",
+            "content": "<p>{{ product.metafields.custom.dimension.value }}<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "9ecebbce-bb4f-4b89-88de-cc65b554ea5c",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "easyflow_product_options_app_embed_yQKRfc",
+        "buy_buttons",
+        "share",
+        "6512423c-c1d1-4cf3-b3aa-9e00b08076ce",
+        "932421c6-6a3a-4eb8-8b8f-5514038a01fb",
+        "d649b7e6-5f2f-40c1-8fa9-e46c190cfdde"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "",
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "1694178861c88868d2": {
+      "type": "apps",
+      "blocks": {
+        "d32fd93b-ec0f-4a94-bdf0-8bf7746c3976": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "d32fd93b-ec0f-4a94-bdf0-8bf7746c3976"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1694178861c88868d2",
+    "related-products"
+  ]
+}
